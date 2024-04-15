@@ -13,8 +13,18 @@ function primerLetraMayus(cadena) {
     return resultado;
 }
 
-// Ejemplo de uso:
-const textoOriginal = 'hola mundo feliz';
-const textoCapitalizado = primerLetraMayus(textoOriginal);
-console.log("Texto original:", textoOriginal);
-console.log("Texto capitalizado:", textoCapitalizado);
+// array con los casos de prueba
+const casosPrueba = [
+    { input:'como estas'},
+    { input:'hola mundo'},
+    { input:'programancdo con javascript' }
+];
+
+// se itera sobre cada caso de prueba para comparar los resultados
+casosPrueba.forEach((caso, index) => {
+    const resultado = primerLetraMayus(caso.input);
+    console.log(`Caso de prueba ${index + 1}:`);
+    console.log("Input:", caso.input);
+    console.log("Outout final: ", resultado);
+    console.log("----------------------");
+});
