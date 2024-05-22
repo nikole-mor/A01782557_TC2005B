@@ -12,7 +12,7 @@ app.use(express.static("public"));
 
 
 app.get("/", (req, res) => {
-    const file = fs.readFileSync("public/html/html_cheat_sheet.html", "utf8");
+    const file = fs.readFileSync("public/html/css_cheat_sheet.html", "utf8");
     res.status(200).send(file);
 });
 
