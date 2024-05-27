@@ -4,24 +4,36 @@
     padding: 0;
 }
 
+
 #main-header {
     box-sizing: border-box;
     padding: 5px;
-    background-color: rgb(35, 59, 70);;
+    background-color: rgb(35, 59, 70);
     color: white;
+    height: 80px;
+
+}
+#main-header h3{
+    padding-left: 20px;
+
 }
 
 #intro {
     height: 100px; 
-    padding: 10px;
-    margin: 100px;
+    padding: 100px;
     background-color: rgb(180, 117, 36);
 }
 
 #newsletter {
-    height: 50px;
+    height: 10px;
     background-color: rgb(35, 59, 70);
-    padding: 5%;
+    padding: 2%;
+    gap: 100px;
+    display: flex;
+    flex-grow: 3;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu-item {
@@ -68,12 +80,27 @@
 .subscribe-elements {
     display: flex;
     margin-top: 10px;
+    
 }
-
-.subscribe-button {
+.subscribesection {
+    gap: 100px;
+    height: 14vh;
+    display: flex;
+    flex-grow: 3;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(35, 59, 70);
+    
+}
+.button {
+    height: 30px;
+    width: 100px;
     margin-left: 7px;
-    padding: 10px 15px;
+    padding: auto;
     cursor: pointer;
+    background-color: rgb(180, 117, 36);
+    color: #fff;
 }
 
 .logos-section {
