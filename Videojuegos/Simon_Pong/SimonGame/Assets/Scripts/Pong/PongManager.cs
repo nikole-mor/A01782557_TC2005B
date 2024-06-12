@@ -1,10 +1,3 @@
-/*
-Game Manager for the Pong demo
-
-Gilberto Echeverria
-2024-04-10
-*/
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

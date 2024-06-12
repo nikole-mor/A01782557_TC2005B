@@ -1,12 +1,3 @@
-
-/*
-Control the movements of a game paddle
-Can be used for horizontal or vertical movement
-
-Gilberto Echeverria
-2024-04-09
-*/
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,9 +1,3 @@
-/*
-Highligth the button and make it play a sound
-
-Gilberto Echeverria
-2024-04-24
-*/
 
 using System.Collections;
 using System.Collections.Generic;

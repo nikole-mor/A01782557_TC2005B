@@ -1,10 +1,3 @@
-/*
-Detect when the ball goes out of bounds
-
-Gilberto Echeverria
-2024-04-10
-*/
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

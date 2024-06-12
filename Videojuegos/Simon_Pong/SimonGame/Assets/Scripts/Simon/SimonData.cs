@@ -1,9 +1,3 @@
-/*
-Define the classes that will store data from the API
-
-Gilberto Echeverria
-2024-05-13
-*/
 
 using System.Collections;
 using System.Collections.Generic;
