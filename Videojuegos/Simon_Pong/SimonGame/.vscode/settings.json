@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Clase_2024_501.sln"
+    "dotnet.defaultSolution": "SimonGame.sln"
 }
